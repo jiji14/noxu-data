@@ -3,12 +3,7 @@
 import ChatBox from "@/components/ChatBox";
 import CustomButton from "@/components/CustomButton";
 import DataTable from "@/components/DataTable";
-import {
-  suggestList,
-  tableButtons,
-  tableData,
-  tableHeader,
-} from "@/utils/dummyData";
+import { suggestList, tableButtons, tableData, tableHeader } from "../utils/dummyData";
 import Image from "next/image";
 
 export default function Main() {
